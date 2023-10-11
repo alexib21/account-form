@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="/assets/app.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1>Sign up</h1>
+            <div class="form-control">
+    
+                <label 
+                class="label"
+                for="firstname">Firstname</label>
+                <input 
+                type="text" 
+                name="firstname" 
+                id="firstname"
+                class="input"
+                required
+                />
+            </div>
+            <div class="form-control">
+    
+                <label 
+                class="label"
+                for="lastname">lastname</label>
+                <input 
+                type="text" 
+                name="lastname" 
+                id="lasstname"
+                class="input"
+                required
+                />
+            </div>
+            <div class="form-control">
+    
+                <label
+                    class="label"
+                    for="email">Email</label>
+                    <input 
+                    type="email" 
+                    name="email" 
+                    id="email"
+                    class="input"
+                    required
+                    />
+            </div>
+            <div class="form-control">
+    
+                <label
+                    class="label"
+                    for="password">password</label>
+                    <input 
+                    type="password" 
+                    name="password" 
+                    id="password"
+                    class="input"
+                    required
+                    />
+            </div>
+            <div class="form-control">
+                <label 
+                for="male">Male</label>
+                <input 
+                type="radio" 
+                name="gender" 
+                id="male"
+                />
+                <label 
+                for="female">Female</label>
+                <input 
+                type="radio" 
+                name="gender" 
+                id="female">
+            </div>
+            <div class="form-control">
+                <label
+                class="label" 
+                for="country">Country</label>
+                <select 
+                name="country" 
+                id="country"
+                class="input"
+                >
+                    <option 
+                    disabled 
+                    selected
+                    >
+                        -- select country --
+                    </option>
+                    <option>Russia</option>
+                    <option>United states</option>
+                    <option>Germany</option>
+                    <option>China</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <label 
+                class="label"
+                for="bio">Bio</label>
+                <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+            </div>
+            <div class="form-control">
+                <label 
+                for="file" 
+                class="label">Profile image</label>
+                <input 
+                type="file" 
+                name="file" 
+                id="file" 
+                class="input">
+            </div>
+            <button type="button">Sumbit</button>
+        </form>
+    </div>
+</body>
+</html>
